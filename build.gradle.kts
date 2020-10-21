@@ -20,6 +20,13 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+
+	// graphql library
+	implementation("com.graphql-java-kickstart:graphql-spring-boot-starter:5.7.3")
+	implementation("com.graphql-java-kickstart:altair-spring-boot-starter:5.7.3")
+	implementation("com.graphql-java-kickstart:graphiql-spring-boot-starter:5.7.3")
+	implementation("com.graphql-java-kickstart:voyager-spring-boot-starter:5.7.3")
+
 	testImplementation("org.springframework.boot:spring-boot-starter-test") {
 		exclude(group = "org.junit.vintage", module = "junit-vintage-engine")
 	}
